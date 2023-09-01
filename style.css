@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    min-height: 250px;
+    background-color: yellow;
+    color: blue;
+    padding-top: 30px;
+}
