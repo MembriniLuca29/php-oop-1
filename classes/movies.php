@@ -11,4 +11,10 @@ class movies {
         $this->regia = $regia;
         
     }
+    public function details()
+    {
+        echo "Title: " . $this->title . "<br>";
+        echo "Duration: " . $this->duration . "<br>";
+        echo "Regia: " . $this->regia . "<br>";
+    }
 }

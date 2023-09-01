@@ -4,10 +4,12 @@ require_once __DIR__.'/classes/movies.php';
 $Oppenheimer =new movies('Oppenheimer',  '3h', 'Christopher Nolan');
 
 var_dump($Oppenheimer);
+$Oppenheimer->details();
 
 $Barbie =new movies('Barbie',  '1h 54m', 'Greta Gerwig');
 
 var_dump($Barbie);
+$Barbie->details();
 ?>
 
 <!DOCTYPE html>
