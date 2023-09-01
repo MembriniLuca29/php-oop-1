@@ -1,12 +1,11 @@
 <?php
 require_once __DIR__.'/classes/movies.php';
 
-$Oppenheimer =new movies('Oppenheimer',  '3h', 'Christopher Nolan');
-
+$Oppenheimer = new Movies('Oppenheimer', '3h', 'Christopher Nolan', ['Drama', 'Sci-Fi']);
 var_dump($Oppenheimer);
 $Oppenheimer->details();
 
-$Barbie =new movies('Barbie',  '1h 54m', 'Greta Gerwig');
+$Barbie = new Movies('Barbie', '1h 54m', 'Greta Gerwig', ['Comedy', 'Family']);
 
 var_dump($Barbie);
 $Barbie->details();
